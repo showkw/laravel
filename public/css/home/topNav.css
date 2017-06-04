@@ -1,0 +1,33 @@
+.topNav{
+    z-index: 10000;
+    background: #F5F5F5;
+    border-bottom: 1px solid #EEE;
+    font-size: 12px;
+    color: #6C6C6C;
+}
+.topNav_ct{
+    width:990px;
+    height: 35px;
+    background: #F5F5F5;
+    -webkit-backface-visibility: hidden;
+}
+.topNav_ct ul li{
+    float:left;
+}
+.menu-hd{
+    z-index: 10002;
+    position: relative;
+    padding: 0 6px;
+    height: 35px;
+    line-height: 35px;
+    _display: inline;
+    _zoom: 1;
+}
+.topNav_ct ul li a{
+    font-size: 12px;
+    color: #6C6C6C;
+}
+.topNav_ct ul li a:hover{
+    color: #F40;
+    text-decoration: none;
+}

@@ -29,6 +29,16 @@ require __DIR__.'/../vendor/autoload.php';
 
 $compiledPath = __DIR__.'/cache/compiled.php';
 
+/*
+ * --------------------------
+ * 引入加载定义的全局常量文件
+ * ----------------------------
+ */
+define( 'ROOT_DIRNAME', 'app' );
+require __DIR__.'/../'.ROOT_DIRNAME.'/GlobalConst.php';
+
+
+
 if (file_exists($compiledPath)) {
     require $compiledPath;
 }
